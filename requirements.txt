@@ -5,3 +5,4 @@ st-gsheets-connection
 openpyxl
 folium
 streamlit_folium
+plotly
