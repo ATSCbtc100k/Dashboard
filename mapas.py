@@ -12,7 +12,7 @@ st.set_page_config(layout="wide")
 st.title("Dashboard de Armes Blanques")
 
 # Función para leer el Google Sheet y el archivo Excel
-@st.cache_data(ttl=600)  # El TTL (time to live) se puede ajustar según tus necesidades
+#@st.cache_data(ttl=600)  # El TTL (time to live) se puede ajustar según tus necesidades
 def load_data():
     # Conexión al Google Sheet
     conn = st.connection("gsheets", type=GSheetsConnection)
