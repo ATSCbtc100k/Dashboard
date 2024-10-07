@@ -1,11 +1,7 @@
 ﻿streamlit
 pandas
-gspread
-oauth2client
 datetime 
-oauth2client.service_account 
-openpyxl
 st-gsheets-connection
+openpyxl
 folium
-folium.plugins
 streamlit_folium
